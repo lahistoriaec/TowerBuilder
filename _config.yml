@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Tower Builder
+title: Proyecto Transparencia
 
 # Logo image
 image: tb-logo.png
 
 #Description of your site
 description: >-
-  TowerBuilder is a system to generate websites with data visualizations that mix open contracting and beneficial ownership data, all without requiring programming knowledge.
+  Proyecto de periodismo ciudadano para revisar el gasto de emergencia durante la pandemia de COVID19.
 
 # URL of your contracts file or API endpoint
 contracts_url: "/assets/data/contracts.csv"
@@ -61,30 +61,30 @@ graph:
   - contracts_format: "csv"
 
 # Customize the More information menu button title
-menu_button_title: More information
+menu_button_title: Más información
 
 # Customize the titles and placeholder inputs in Contracts page
-contracts_title: Contracts by companies
-search_title: Search
-search_placeholder: Enter keyword to search
-amount_title: Total amount (Mexican pesos)
-amount_from_placeholder: From $
-amount_to_placeholder: to $
-type_contract_title: Type of contract
-type_contract_title_tooltip: The law requires that the Buyer defines the type of contract because the rules vary in each case.
+contracts_title: Contratos por proveedores
+search_title: Buscar
+search_placeholder: Ingresar palabras clave
+amount_title: Valor total (Dólares americanos)
+amount_from_placeholder: Desde $
+amount_to_placeholder: hasta $
+type_contract_title: Provincia
+type_contract_title_tooltip: Busque por provincia los contratos suscriptos en modalidad de emergencia.
 type_contract_all_option: All
-type_procedure_title: Type of procedure
-type_procedure_title_tooltip: La licitación pública es según la ley mexicana el procedimiento adecuado para contratar obra publica. Excepcionalmente también se pueden realizar otro tipo de procedimientos como adjudicación directa, convenio e invitación a cuando menos tres proveedores.
-type_procedure_all_option: All
-date_range_title: Date range
-date_range_from_placeholder: From
-date_range_to_placeholder: to
-date_range_title_tooltip: Find active contracts between two dates.
-filter_footnote_title: Apply filters on contracts with companies.
+type_procedure_title: Entidad contratante
+type_procedure_title_tooltip: Busque por institución pública los contratos que se suscribieron durante la emergencia.
+type_procedure_all_option: Todos
+date_range_title: Rango de tiempo
+date_range_from_placeholder: Desde
+date_range_to_placeholder: hasta
+date_range_title_tooltip: Encuentro los contratos suscritos entre este periodo de tiempo.
+filter_footnote_title: Aplique los filtros por los contratos suscritos con proveedores filters on contracts with companies.
 # Customize the Contract table titles
-column_1: Companies
-column_2: No. of contracts
-column_3: Total amount
+column_1: Proveedores
+column_2: No. de contratos
+column_3: Valor total
 
 # Build settings
 plugins:
